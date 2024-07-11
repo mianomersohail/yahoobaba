@@ -160,7 +160,8 @@ body {
         flex-direction: column;
         align-items: center; /* Center the items in the ul */
     }
-
+    
+   
     .first-slide-bar-ul li {
         width: 100%;
         font-size: 28px; /* Ensure the li elements take full width */

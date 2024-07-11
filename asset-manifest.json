@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mianomersohail/yahoobaba.git/static/css/main.42588dae.css",
+    "main.js": "/mianomersohail/yahoobaba.git/static/js/main.eb0d8c7a.js",
+    "static/js/453.ed3810f9.chunk.js": "/mianomersohail/yahoobaba.git/static/js/453.ed3810f9.chunk.js",
+    "index.html": "/mianomersohail/yahoobaba.git/index.html",
+    "main.42588dae.css.map": "/mianomersohail/yahoobaba.git/static/css/main.42588dae.css.map",
+    "main.eb0d8c7a.js.map": "/mianomersohail/yahoobaba.git/static/js/main.eb0d8c7a.js.map",
+    "453.ed3810f9.chunk.js.map": "/mianomersohail/yahoobaba.git/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.42588dae.css",
+    "static/js/main.eb0d8c7a.js"
+  ]
+}

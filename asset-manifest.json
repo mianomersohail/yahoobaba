@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/mianomersohail/yahoobaba.git/static/css/main.42588dae.css",
-    "main.js": "/mianomersohail/yahoobaba.git/static/js/main.eb0d8c7a.js",
+    "main.css": "/mianomersohail/yahoobaba.git/static/css/main.826119e6.css",
+    "main.js": "/mianomersohail/yahoobaba.git/static/js/main.20f8d2d0.js",
     "static/js/453.ed3810f9.chunk.js": "/mianomersohail/yahoobaba.git/static/js/453.ed3810f9.chunk.js",
     "index.html": "/mianomersohail/yahoobaba.git/index.html",
-    "main.42588dae.css.map": "/mianomersohail/yahoobaba.git/static/css/main.42588dae.css.map",
-    "main.eb0d8c7a.js.map": "/mianomersohail/yahoobaba.git/static/js/main.eb0d8c7a.js.map",
+    "main.826119e6.css.map": "/mianomersohail/yahoobaba.git/static/css/main.826119e6.css.map",
+    "main.20f8d2d0.js.map": "/mianomersohail/yahoobaba.git/static/js/main.20f8d2d0.js.map",
     "453.ed3810f9.chunk.js.map": "/mianomersohail/yahoobaba.git/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.42588dae.css",
-    "static/js/main.eb0d8c7a.js"
+    "static/css/main.826119e6.css",
+    "static/js/main.20f8d2d0.js"
   ]
 }

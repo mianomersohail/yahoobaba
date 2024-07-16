@@ -1,37 +1,38 @@
-
 import './App.css';
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
-import Homesidebar from './com/homesidebar/homesidebar.js'
-import Home from './com/home/home.js'
-import Nav from './com/navbar/nav.js'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
+import Nav from './Components/nav/nav/nav';
+
 function App() {
+  
+  
+  
+ 
+
   return (
     <>
-    
-    <Router>
-        <Nav />
+      <Router>
+       <Nav /> 
         <Routes>
           <Route
             path="/home"
-            element={<Home/>}
+            element={''}
           />
           <Route
             path="/interview"
-            element={<Homesidebar/>}
+            element={''}
           />
           <Route
             path="/resume"
             element={""}
-         
           />
           <Route
             path="/projects"
-          element={""}       
+            element={""}
           />
-
-<Route
+          <Route
             path="/contact"
-          element={""}       
+            element={""}
           />
         </Routes>
       </Router>

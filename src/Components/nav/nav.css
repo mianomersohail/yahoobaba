@@ -1,0 +1,84 @@
+.navbar{
+    background: linear-gradient(to right, #F4F6EB, #F1F7FA) !important;
+}
+.signup{
+    border :2px solid;
+    background-color: #00A2FF;
+    color:white;
+    font-weight: bold;
+    margin-right: 29px;
+    padding-top:8px ;
+    padding-bottom: 8px;
+    border-radius: 10px;
+}
+.signup:hover{
+    background-color: white;
+    color:#00A2FF;
+    border-color: #00A2FF;
+}
+.login-btn{
+    border: solid;
+    border-color: #b8bfc2;
+    margin-right: 29px;
+    border-radius: 15px;
+    font-weight: bold;
+    padding-top:8px ;
+    padding-bottom: 8px;
+}
+.login-btn:hover{
+    color:#00A2FF;
+    border-color:#00A2FF ;
+}
+.nav-getresponse{
+    font-weight: bolder;
+    margin-left: 11px;
+    font-size: 24px;
+
+}
+.fa{
+    font-size: 24px;
+    
+}
+.nav-relative-one{
+    position: relative;
+    left:43px;
+
+    font-size: 20px;
+}
+.nav-relative-two{
+    position: relative;
+    left:53px;
+    font-size: 20px;
+    
+
+}
+.nav-relative-three{
+    position: relative;
+    left:63px;
+    font-size: 20px;
+
+}
+.nav-relative-four
+{
+    position: relative;
+    left:73px;
+    font-size:20px;
+}
+@media screen and (max-width:768px) {
+    .nav-relative-one{
+        left:0px;
+
+    }
+    .nav-relative-two{
+        left:0px;
+
+    }
+    .nav-relative-three{
+        left:0px;
+
+    }
+    .nav-relative-four{
+        left:0px;
+    }
+    
+}

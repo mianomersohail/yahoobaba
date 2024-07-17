@@ -1,88 +1,209 @@
-.homeemail{
-    margin-top: 50px;
-    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",;
-    
+.Home-main-container{
+    background: linear-gradient(to right,#F2F1E6,#F5F5D7, #F4F6EB,#F4F7F9, #DBF7F6) !important;
 }
-.home-container{
-    background: linear-gradient(to right, #F4F6EB, #F1F7FA) !important;
+.home-main{
+    margin-top: 60px;
 }
-.home-e{
-    font-size: 72px;
+.email-main-h{
+    font-size: 67px;
     font-weight: bolder;
-    margin-left: 20px;
+    font-family: Rubik, Helvetica, Arial, sans-serif;
+    margin-top: 100px;
+
+    margin-left: 17px;
+}
+.blue{
+    color:#00A2FF;
+    font-family:  Rubik, Helvetica, Arial, sans-serif;
 }
 .home-afford{
-    font-size: 16px;
+    font-family: Rubik, Helvetica, Arial, sans-serif;
     font-weight: 400;
-    
-     color:rgb(0, 0, 0);
-    font-family: Rubik, Helvetica, Arial, sans-serif;
+    Line-height: 25.6px;
 }
-.home-blue{
-    color:#00A2FF;
-}
-.home-free-ac{
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-.home-btn-ac{
-    border:3px solid;
-    font-size: 28px;
-    padding:8px;
-    padding-left: 21px;
-    padding-right:21px;
-    border-radius: 32px;
-    background-color: #FBE30C;
-    color:black;
-    font-weight: bold;
-    border-color: #fff200;
-    font-family: Rubik, Helvetica, Arial, sans-serif;
-    Font-weight: 600px;
-    
-    margin-top: 32px;
-    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease; /* Add this line */
-}
-.home-btn-ac:hover{
-    background-color: #00A2FF;
-    color:white;
-    border-color: #0a5986;
-
-}
-.home-over-btn{
-    font-size: 10px;
-    margin-top: 12px;
-}
-
-@media screen and (max-width:768px) {
-    
-    .home-img-one{
-        width:100%;
+@media screen and (max-width:767px) {
+    .home-main{
+        display: flex;
+        
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
-    .home-e{
-        font-size: 44px;
-        font-weight: bolder;
+    .email-main-h{
+        margin-top: -25px;
+        margin-left: 0px;
     }
-    .home-fle{
+    .blue{
+        display: inline-block;
+        font-size: 56px;
+        margin-top: -20px !important;         
+    }
+    .home-afford {
+        margin-top: 32px;   
+        text-align:center;
+    /* Align text to the left on mobile */
+    }
+    .main-blue-one{
+        font-size: 42px;
+        position: relative;
+        right: 10px;
+    }
+}
+@media screen and (max-width:970px) and (min-width:768px) {
+    .email-main-h{
+        font-size: 50px;
+    }
+    
+}
+@media  screen and (max-width:316px) {
+    .email-main-h{
+        font-size: 40px;
+    }
+    
+}
+@media screen and (max-width:234px) {
+    .email-main-h{
+        font-size: 32px;
+    
+    }
+    .blue{
+        display: block;
+    }
+    .main-blue-one{
+        right:0px;
         display: flex;
         justify-content: center;
+   }
+}
+.Home-main-of-btn{
+    display: flex;
+    justify-content: center;
 
+    
+    margin-top: 22px;
+}
+.home-main-btn {
+    border: 3px solid;
+    border-color: #d2be12;
+    height: 60px;
+    width: 300px;
+    border-radius: 25px;
+    font-family: Rubik, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    line-height: 18px;
+    color: black;
+    background-color: #FBE30C;
+    display: inline-flex; /* Use inline-flex for better centering */
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease; /* Add transition property */
+}
+.home-main-btn:hover {
+    background-color: #00A2FF;
+    color: white;
+    border-color: #2489c4c3;
+}
+.Home-main-btn-p{
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    margin-top: 23px;
+    font-family:  Rubik, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    line-height: normal;
+    
+    color:rgb(0,0,0)
+}
+@media screen and (max-width:216px) {
+    .home-main-btn{
+        font-size: 11px;
+        height: 40px;
+    }
+    .Home-main-btn-p{
+        font-size: 5px;
     }
     
 }
-@media screen and (max-width:350px) {
-    .home-e{
-        font-size: 32px;
+.home-img-two{
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width:767px) {
+    .home-img-twos{
+        width: 100%;
     }
     
 }
-@media screen and (max-width:280px) {
-    .home-e{
-        font-size: 22px;
-        margin-left: 5px;
+.home-third-img-main{
+    display: flex;
+    justify-content: center;
+
+}
+
+.home-third-img-main img{
+    width: 200px;
+    margin-top: 54px;
+}
+.home-main-p-third{
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+    color: rgb(113, 113, 113);
+}
+@media screen and (max-width:357px) {
+    .home-third-img-main img{
+        width:100px;
     }
 
+    .home-main-p-third p{
+        text-align: center;
+
+    }
+}
+@media screen and (max-width:567px) {
+    .home.main-p-third p{
+        text-align: center;
+    }
     
+}
+.email-marketing {
+    display: flex;
+    justify-content: center;
+    font-family: Rubik, Helvetica, Arial, sans-serif;
+    font-size: 34px;
+    
+   
+    margin-top: 100px;
+    flex-direction: column;
+}
+
+.email-marketing h1 {
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+}
+
+.easier {
+    color: black;
+    position: relative;
+    right:7px;
+}
+
+
+.highlight {
+    color: #00A2FF;
+}
+
+@media (max-width: 600px) {
+    .email-marketing h1 {
+        font-size: 18px; /* Adjust font size for smaller screens */
+    }
+    .email-marketing {
+        margin-top: 50px; /* Adjust margin for smaller screens */
+    }
 }

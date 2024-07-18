@@ -1,7 +1,7 @@
 .navbar{
     background: linear-gradient(to right,#F2F1E6,#F5F5D7, #F4F6EB,#F4F7F9, #DBF7F6) !important;
     position: fixed;
-    width:100%;
+    width:100%
 }
 .signup{
     border :2px solid;

@@ -69,51 +69,51 @@ export default function GetReponse() {
           </div>
           </div>           
 
-          <div className="col-lg-2">
+          <div className="col-2">
             <div>
-              <img src="https://us-wn-g.gr-cdn.com/_next/static/media/g2_1.6b6f0ef0.png"/>
+              <img className="res-img-four" src="https://us-wn-g.gr-cdn.com/_next/static/media/g2_1.6b6f0ef0.png"/>
 
             </div>
             
           </div>
-          <div className="col-lg-2">
+          <div className="col-2">
             <div>
-              <img src="https://us-wn-g.gr-cdn.com/_next/static/media/g2_1.6b6f0ef0.png"/>
+              <img className="res-img-four" src="https://us-wn-g.gr-cdn.com/_next/static/media/g2_1.6b6f0ef0.png"/>
 
             </div>
             
           </div>
-          <div className="col-lg-2">
+          <div className="col-2">
             <div>
-              <img src="https://us-wn-g.gr-cdn.com/_next/static/media/g2_1.6b6f0ef0.png"/>
+              <img className="res-img-four" src="https://us-wn-g.gr-cdn.com/_next/static/media/g2_1.6b6f0ef0.png"/>
 
             </div>
             
           </div>
-          <div className="col-lg-2">
+          <div className="col-2">
             <div>
-              <img src="https://us-wn-g.gr-cdn.com/_next/static/media/g2_1.6b6f0ef0.png"/>
+              <img className="res-img-four" src="https://us-wn-g.gr-cdn.com/_next/static/media/g2_1.6b6f0ef0.png"/>
 
             </div>
             
           </div>
-          <div className="col-lg-2">
+          <div className="col-2">
             <div>
-              <img src="https://us-wn-g.gr-cdn.com/_next/static/media/g2_1.6b6f0ef0.png"/>
+              <img className="res-img-four" src="https://us-wn-g.gr-cdn.com/_next/static/media/g2_1.6b6f0ef0.png"/>
 
             </div>
             
           </div>
-          <div className="col-lg-2">
+          <div className="col-2">
             <div>
-              <img src="https://us-wn-g.gr-cdn.com/_next/static/media/g2_1.6b6f0ef0.png"/>
+              <img className="res-img-four" src="https://us-wn-g.gr-cdn.com/_next/static/media/g2_1.6b6f0ef0.png"/>
 
             </div>
             
           </div>
-          <div className="col-lg-2">
+          <div className="col-2  offset-4">
             <div>
-              <img src="https://us-wn-g.gr-cdn.com/_next/static/media/g2_1.6b6f0ef0.png"/>
+              <img className="res-img-four res-last-img" src="https://us-wn-g.gr-cdn.com/_next/static/media/g2_1.6b6f0ef0.png"/>
 
             </div>
             

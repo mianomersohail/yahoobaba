@@ -48,7 +48,7 @@ export default function GetReponse() {
           </div> 
           <div className="col-lg-4 col-md-6 col-sl-6 response-main"  >
           <div className="res-vision-box">
-            <img className="res-vision-img" src="https://us-wd.gr-cdn.com/customers/sites/16/2024/07/1022/living_vision-removebg-preview-e1721125329100.png"/>
+            <img className="res-vision-img" src="https://us-wn-g.gr-cdn.com/_next/static/media/g2_2.05c187d0.png"/>
             <span className="list-growth ">75% of all public sales </span><span className="list-growth-black">from email autoresponders</span>
             <span className="res-vision-p">Together with GetResponse, we've been able to convince constomers of need,culminating in compelling sales. </span>
             <div className="res-btn-vision"> 
@@ -60,7 +60,7 @@ export default function GetReponse() {
           </div> 
           <div className="col-lg-4 response-main ">
           <div className="res-vision-box">
-            <img className="res-vision-img" src="https://us-wd.gr-cdn.com/customers/sites/16/2024/07/1025/red-hot-logo1_-removebg-preview-e1721125532901.png"/>
+            <img className="res-vision-img" src="https://us-wn-g.gr-cdn.com/_next/static/media/g2_3.86056ace.png"/>
             <span className="list-growth ">Up to $,1000 </span><span className="list-growth-black">for every 1,000 emails sent</span>
             <span className="res-vision-p">Regarding revenue contribution,the email marketing channel is like free money for us. </span>
             <div className="res-btn-vision"> 
@@ -71,7 +71,21 @@ export default function GetReponse() {
 
           <div className="col-2">
             <div>
-              <img className="res-img-four" src="https://us-wn-g.gr-cdn.com/_next/static/media/g2_1.6b6f0ef0.png"/>
+              <img className="res-img-four" src="https://us-wn-g.gr-cdn.com/_next/static/media/g2_4.e4f2e95d.png"/>
+
+            </div>
+            
+          </div>
+          <div className="col-2">
+            <div>
+              <img className="res-img-four" src="https://us-wn-g.gr-cdn.com/_next/static/media/g2_5.1685b4d8.png"/>
+
+            </div>
+            
+          </div>
+          <div className="col-2">
+            <div>
+              <img className="res-img-four" src="https://us-wn-g.gr-cdn.com/_next/static/media/g2_6.ca4cfd9a.png"/>
 
             </div>
             
@@ -97,29 +111,23 @@ export default function GetReponse() {
             </div>
             
           </div>
-          <div className="col-2">
-            <div>
-              <img className="res-img-four" src="https://us-wn-g.gr-cdn.com/_next/static/media/g2_1.6b6f0ef0.png"/>
-
-            </div>
-            
-          </div>
-          <div className="col-2">
-            <div>
-              <img className="res-img-four" src="https://us-wn-g.gr-cdn.com/_next/static/media/g2_1.6b6f0ef0.png"/>
-
-            </div>
-            
-          </div>
-          <div className="col-2  offset-4">
+          {/* <div className="col-2  offset-4">
             <div>
               <img className="res-img-four res-last-img" src="https://us-wn-g.gr-cdn.com/_next/static/media/g2_1.6b6f0ef0.png"/>
 
             </div>
             
-          </div>
-          
-          
+          </div> */}
+
+          <div className="col-12 coming-soon-main">
+            <div className="coming-soon-btn">
+              COMING SOON
+            </div>
+
+            
+
+            
+            </div>          
         </div>
       </div>
     </>

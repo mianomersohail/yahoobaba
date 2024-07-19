@@ -180,4 +180,33 @@ color:#00A2FF
 }
 .res-last-img{
     margin-top: 0px;
+    
+}
+.coming-soon-main{
+  
+    display: flex;
+    justify-content: center;
+    
+}
+.coming-soon-btn{
+    border:solid;
+    height: 42px;
+    display: flex;
+    background-color: #39D464;
+    color:white;
+    font-family: Rubik, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    width:150px;
+    border-radius: 50px;
+}
+@media screen and (max-width:900px){
+
+    .coming-soon-btn{
+        height: 35px;
+        width:150px;
+        
+    }
 }
